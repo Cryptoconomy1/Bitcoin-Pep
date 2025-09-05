@@ -30,6 +30,8 @@ class DegenChaosEngine {
         this.initChaosMode();
         this.addDegenLabels();
         this.initRandomMemeQuotes();
+        this.updateDaysSinceLaunch();
+        this.scheduleDaysSinceLaunchUpdate();
         console.log("🐸 DEGEN CHAOS ENGINE ACTIVATED! LFG! 🚀💎");
     }
 
@@ -38,6 +40,28 @@ class DegenChaosEngine {
         const chaosDiv = document.createElement('div');
         chaosDiv.className = 'chaos-bg';
         document.body.appendChild(chaosDiv);
+    }
+
+    // Calculate and update Days Since Launch
+    updateDaysSinceLaunch() {
+        const el = document.getElementById('days-since-launch');
+        if (!el) return;
+        const launch = new Date('2023-03-27T00:00:00Z');
+        const now = new Date();
+        const msPerDay = 24 * 60 * 60 * 1000;
+        const days = Math.floor((now - launch) / msPerDay);
+        el.textContent = days.toString();
+    }
+
+    // Refresh the counter shortly after midnight local time
+    scheduleDaysSinceLaunchUpdate() {
+        const now = new Date();
+        const next = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 5, 0, 0);
+        const timeout = next.getTime() - now.getTime();
+        setTimeout(() => {
+            this.updateDaysSinceLaunch();
+            this.scheduleDaysSinceLaunchUpdate();
+        }, Math.max(timeout, 60 * 1000));
     }
 
     // Initialize sound effects (disabled)
