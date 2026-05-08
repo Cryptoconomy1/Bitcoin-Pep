@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./img/favicon.png" />
     <title>Bitcoin Pepe</title>
-    <meta name="description" content="Pepe but on Bitcoin" />
+    <meta
+      name="description"
+      content="Bitcoin Pepe (PEPE) is a community Stacks SIP-010 token on Bitcoin L2 with verified contract, supply, and burn-address details."
+    />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Bitcoin Pepe" />
@@ -25,7 +28,10 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Bitcoin Pepe" />
-    <meta name="twitter:description" content="Pepe but on Bitcoin" />
+    <meta
+      name="twitter:description"
+      content="Bitcoin Pepe (PEPE) on Stacks with verified contract, supply, and burn-address details."
+    />
     <meta
       name="twitter:image"
       content="https://pepecoins.io/img/bitcoin-is-king--5--1.png"
@@ -150,9 +156,10 @@
           <!-- Enhanced Bitcoin Pepe Token Stats -->
           <div class="enhanced-token-stats">
             <div class="stats-header">
-              <h3>📊 Live Token Metrics</h3>
+              <h3>📊 Verified Token Metrics</h3>
               <p>
-                Real-time data from Stacks blockchain • Updated every 30 seconds
+                Contract data verified from Stacks mainnet • Burn address noted
+                for CoinGecko review
               </p>
             </div>
 
@@ -163,16 +170,16 @@
               <div class="stat-card-enhanced card-glass">
                 <div class="stat-icon-large">🪙</div>
                 <div class="stat-content">
-                  <h3 class="stat-number">21,000,000,000</h3>
-                  <p class="stat-label">Total Supply</p>
-                  <div class="stat-sublabel">Fixed • No Inflation</div>
+                  <h3 class="stat-number">20,000,000,000</h3>
+                  <p class="stat-label">Contract Supply</p>
+                  <div class="stat-sublabel">get-total-supply • 3 decimals</div>
                 </div>
               </div>
 
               <div class="stat-card-enhanced card-glass">
                 <div class="stat-icon-large">📅</div>
                 <div class="stat-content">
-                  <h3 class="stat-number">668</h3>
+                  <h3 class="stat-number">1138</h3>
                   <p class="stat-label">Days Since Launch</p>
                   <div class="stat-sublabel">March 27, 2023</div>
                 </div>
@@ -190,9 +197,9 @@
               <div class="stat-card-enhanced card-glass">
                 <div class="stat-icon-large">🔥</div>
                 <div class="stat-content">
-                  <h3 class="stat-number">18,890,000,000</h3>
-                  <p class="stat-label">Max Supply</p>
-                  <div class="stat-sublabel">After burn</div>
+                  <h3 class="stat-number">17.960B</h3>
+                  <p class="stat-label">Burn-Adjusted Supply</p>
+                  <div class="stat-sublabel">Excludes Stacks boot burn address</div>
                 </div>
               </div>
 
@@ -218,9 +225,17 @@
             <!-- Contract Information -->
             <div class="contract-info card-glass">
               <div class="contract-header">
-                <h4>📋 Smart Contract Details</h4>
+                <h4>📋 Smart Contract & Supply Details</h4>
               </div>
               <div class="contract-details">
+                <div class="contract-item">
+                  <span class="contract-label">Community Brand:</span>
+                  <span class="contract-value">Bitcoin Pepe</span>
+                </div>
+                <div class="contract-item">
+                  <span class="contract-label">On-chain Token Name:</span>
+                  <span class="contract-value">Pepe Coin</span>
+                </div>
                 <div class="contract-item">
                   <span class="contract-label">Contract Address:</span>
                   <span class="contract-value"
@@ -233,13 +248,47 @@
                 </div>
                 <div class="contract-item">
                   <span class="contract-label">Decimals:</span>
-                  <span class="contract-value">6</span>
+                  <span class="contract-value">3</span>
                 </div>
                 <div class="contract-item">
                   <span class="contract-label">Standard:</span>
                   <span class="contract-value">SIP-010 (Stacks)</span>
                 </div>
+                <div class="contract-item">
+                  <span class="contract-label">Contract Total Supply:</span>
+                  <span class="contract-value">20,000,000,000 PEPE</span>
+                </div>
+                <div class="contract-item">
+                  <span class="contract-label">Boot/Burn Address:</span>
+                  <span class="contract-value">SP000000000000000000002Q6VF78</span>
+                </div>
+                <div class="contract-item">
+                  <span class="contract-label">Boot/Burn Balance:</span>
+                  <span class="contract-value">2,039,809,398.075 PEPE</span>
+                </div>
+                <div class="contract-item">
+                  <span class="contract-label">Burn-Adjusted Supply:</span>
+                  <span class="contract-value">17,960,190,601.925 PEPE</span>
+                </div>
+                <div class="contract-item">
+                  <span class="contract-label">Minting Status:</span>
+                  <span class="contract-value">Disabled (get-mitable = false)</span>
+                </div>
               </div>
+              <p
+                style="
+                  color: var(--text-secondary);
+                  font-size: 14px;
+                  line-height: 1.6;
+                  margin: 16px 0 0;
+                "
+              >
+                Supply note: the contract currently reports 20B PEPE with 3
+                decimals. Additional PEPE sits at the Stacks boot burn address,
+                so the boot-address-adjusted supply is 17,960,190,601.925 PEPE.
+                Older 21B / 18.89B copy has been removed to keep
+                CoinGecko-facing data aligned with Stacks mainnet.
+              </p>
               <div class="contract-actions">
                 <a
                   href="https://explorer.hiro.so/txid/SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.tokensoft-token-v4k68639zxz?chain=mainnet"
