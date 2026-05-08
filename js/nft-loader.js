@@ -192,7 +192,7 @@ class NFTLoader {
       rarity: nft.rarity_rank || nft.rank || null,
       traits: nft.traits || nft.attributes || [],
       owner: nft.owner || nft.current_owner,
-      permalink: `https://gamma.io/stacks/collections/bitcoin-pepe/items/${nft.id}`,
+      permalink: `https://fak.fun/nfts/pepe`,
     }));
   }
 
@@ -210,7 +210,7 @@ class NFTLoader {
 
     if (imageUrl.includes("QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP")) {
       // Known Bitcoin Pepe collection images
-      return `https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/${imageUrl}`;
+      return `https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/${imageUrl}`;
     }
 
     if (imageUrl.startsWith("ar://")) {
@@ -228,7 +228,7 @@ class NFTLoader {
 
     // If it's just a number or filename, construct the full URL
     if (/^\d+\.png$/.test(imageUrl) || /^\d+$/.test(imageUrl)) {
-      return `https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/${imageUrl}.png`;
+      return `https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/${imageUrl}.png`;
     }
 
     // Relative URLs - try to resolve
@@ -258,328 +258,328 @@ class NFTLoader {
         id: "1",
         name: "Bitcoin Pepe #1",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/1.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/1.png",
         description: "Genesis Bitcoin Pepe - The very first minted",
         price: null,
         rarity: 1,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/1",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "2",
         name: "Bitcoin Pepe #2",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/2.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/2.png",
         description: "Second Bitcoin Pepe ever minted",
         price: null,
         rarity: 2,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/2",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "3",
         name: "Bitcoin Pepe #3",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/3.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/3.png",
         description: "Third Bitcoin Pepe in the series",
         price: null,
         rarity: 3,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/3",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "7",
         name: "Bitcoin Pepe #7",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/7.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/7.png",
         description: "Lucky number seven Bitcoin Pepe",
         price: null,
         rarity: 7,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/7",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "13",
         name: "Bitcoin Pepe #13",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/13.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/13.png",
         description: "Unlucky but legendary Bitcoin Pepe",
         price: null,
         rarity: 13,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/13",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "21",
         name: "Bitcoin Pepe #21",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/21.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/21.png",
         description: "Bitcoin Pepe #21 - A tribute to Bitcoin's 21M supply",
         price: null,
         rarity: 21,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/21",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "42",
         name: "Bitcoin Pepe #42",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/42.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/42.png",
         description: "The answer to everything - Bitcoin Pepe edition",
         price: null,
         rarity: 42,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/42",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "50",
         name: "Bitcoin Pepe #50",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/50.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/50.png",
         description: "Half-century Bitcoin Pepe milestone",
         price: null,
         rarity: 50,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/50",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "69",
         name: "Bitcoin Pepe #69",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/69.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/69.png",
         description: "Nice Bitcoin Pepe",
         price: null,
         rarity: 69,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/69",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "88",
         name: "Bitcoin Pepe #88",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/88.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/88.png",
         description: "Double infinity Bitcoin Pepe",
         price: null,
         rarity: 88,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/88",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "100",
         name: "Bitcoin Pepe #100",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/100.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/100.png",
         description: "Centennial Bitcoin Pepe milestone",
         price: null,
         rarity: 100,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/100",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "111",
         name: "Bitcoin Pepe #111",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/111.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/111.png",
         description: "Triple ones Bitcoin Pepe",
         price: null,
         rarity: 111,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/111",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "123",
         name: "Bitcoin Pepe #123",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/123.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/123.png",
         description: "Sequential Bitcoin Pepe",
         price: null,
         rarity: 123,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/123",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "200",
         name: "Bitcoin Pepe #200",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/200.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/200.png",
         description: "Double century Bitcoin Pepe",
         price: null,
         rarity: 200,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/200",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "222",
         name: "Bitcoin Pepe #222",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/222.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/222.png",
         description: "Triple twos Bitcoin Pepe",
         price: null,
         rarity: 222,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/222",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "314",
         name: "Bitcoin Pepe #314",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/314.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/314.png",
         description: "Pi Bitcoin Pepe for the mathematically inclined",
         price: null,
         rarity: 314,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/314",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "333",
         name: "Bitcoin Pepe #333",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/333.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/333.png",
         description: "Triple threes Bitcoin Pepe",
         price: null,
         rarity: 333,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/333",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "420",
         name: "Bitcoin Pepe #420",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/420.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/420.png",
         description: "Meme legend Bitcoin Pepe",
         price: null,
         rarity: 420,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/420",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "444",
         name: "Bitcoin Pepe #444",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/444.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/444.png",
         description: "Quad fours Bitcoin Pepe",
         price: null,
         rarity: 444,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/444",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "500",
         name: "Bitcoin Pepe #500",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/500.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/500.png",
         description: "Half-thousand Bitcoin Pepe",
         price: null,
         rarity: 500,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/500",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "555",
         name: "Bitcoin Pepe #555",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/555.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/555.png",
         description: "Triple fives Bitcoin Pepe",
         price: null,
         rarity: 555,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/555",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "666",
         name: "Bitcoin Pepe #666",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/666.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/666.png",
         description: "Devilishly rare Bitcoin Pepe",
         price: null,
         rarity: 666,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/666",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "777",
         name: "Bitcoin Pepe #777",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/777.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/777.png",
         description: "Triple seven lucky Bitcoin Pepe",
         price: null,
         rarity: 777,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/777",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "888",
         name: "Bitcoin Pepe #888",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/888.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/888.png",
         description: "Triple eights Bitcoin Pepe",
         price: null,
         rarity: 888,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/888",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "999",
         name: "Bitcoin Pepe #999",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/999.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/999.png",
         description: "Triple nines Bitcoin Pepe",
         price: null,
         rarity: 999,
-        permalink: "https://gamma.io/stacks/collections/bitcoin-pepe/items/999",
+        permalink: "https://fak.fun/nfts/pepe",
       },
       {
         id: "1000",
         name: "Bitcoin Pepe #1000",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/1000.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/1000.png",
         description: "Millennium Bitcoin Pepe collector edition",
         price: null,
         rarity: 1000,
         permalink:
-          "https://gamma.io/stacks/collections/bitcoin-pepe/items/1000",
+          "https://fak.fun/nfts/pepe",
       },
       {
         id: "1111",
         name: "Bitcoin Pepe #1111",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/1111.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/1111.png",
         description: "Quad ones Bitcoin Pepe",
         price: null,
         rarity: 1111,
         permalink:
-          "https://gamma.io/stacks/collections/bitcoin-pepe/items/1111",
+          "https://fak.fun/nfts/pepe",
       },
       {
         id: "1337",
         name: "Bitcoin Pepe #1337",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/1337.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/1337.png",
         description: "Elite Bitcoin Pepe",
         price: null,
         rarity: 1337,
         permalink:
-          "https://gamma.io/stacks/collections/bitcoin-pepe/items/1337",
+          "https://fak.fun/nfts/pepe",
       },
       {
         id: "1500",
         name: "Bitcoin Pepe #1500",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/1500.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/1500.png",
         description: "Mid-collection Bitcoin Pepe",
         price: null,
         rarity: 1500,
         permalink:
-          "https://gamma.io/stacks/collections/bitcoin-pepe/items/1500",
+          "https://fak.fun/nfts/pepe",
       },
       {
         id: "1776",
         name: "Bitcoin Pepe #1776",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/1776.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/1776.png",
         description: "Independence Bitcoin Pepe",
         price: null,
         rarity: 1776,
         permalink:
-          "https://gamma.io/stacks/collections/bitcoin-pepe/items/1776",
+          "https://fak.fun/nfts/pepe",
       },
       {
         id: "2000",
         name: "Bitcoin Pepe #2000",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/2000.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/2000.png",
         description: "Y2K Bitcoin Pepe",
         price: null,
         rarity: 2000,
         permalink:
-          "https://gamma.io/stacks/collections/bitcoin-pepe/items/2000",
+          "https://fak.fun/nfts/pepe",
       },
       {
         id: "2089",
         name: "Bitcoin Pepe #2089",
         image:
-          "https://images.gamma.io/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/2089.png",
+          "https://stxnft.mypinata.cloud/ipfs/QmcvM2naXyg15WFaVdB7qjnqRdsPrfrjGne7wHQojmAZNP/images/2089.png",
         description: "Final Bitcoin Pepe in the collection",
         price: null,
         rarity: 2089,
         permalink:
-          "https://gamma.io/stacks/collections/bitcoin-pepe/items/2089",
+          "https://fak.fun/nfts/pepe",
       },
     ];
   }
@@ -751,7 +751,7 @@ class NFTGalleryRenderer {
                         }
                         <a href="${
                           nft.permalink
-                        }" target="_blank" rel="noopener noreferrer" class="btn-degen" style="font-size: 12px; padding: 8px 16px; margin-top: 12px;">🚀 VIEW ON GAMMA</a>
+                        }" target="_blank" rel="noopener noreferrer" class="btn-degen" style="font-size: 12px; padding: 8px 16px; margin-top: 12px;">🚀 VIEW ON FAK.FUN</a>
                     </div>
                 </div>
             `;
@@ -845,7 +845,7 @@ class NFTGalleryRenderer {
             <div class="empty-state glass-container" style="grid-column: 1 / -1; text-align: center; padding: 60px;">
                 <h3 style="color: var(--text-secondary); margin-bottom: 16px;">No NFTs Found</h3>
                 <p style="color: var(--text-tertiary);">Check back later or visit the collection directly.</p>
-                <a href="https://gamma.io/stacks/collections/bitcoin-pepe/items" target="_blank" class="btn-glass" style="margin-top: 24px;">
+                <a href="https://fak.fun/nfts/pepe" target="_blank" class="btn-glass" style="margin-top: 24px;">
                     View Collection
                 </a>
             </div>
